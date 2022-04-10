@@ -1,8 +1,7 @@
-const rd = require('readline-sync');
+const rd = require("readline-sync");
 
 let dividendo = rd.questionInt("Digite um número: ");
 let divisor = rd.questionInt("Digite outro número: ");
-
 
 const quociente = dividendo / divisor;
 const resto = dividendo % divisor;
