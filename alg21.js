@@ -6,3 +6,4 @@ let num2 = rd.questionInt("Digite outro número: ");
 const produto = num1 * num2;
 
 console.log(`\nProduto: ${produto}`);
+
