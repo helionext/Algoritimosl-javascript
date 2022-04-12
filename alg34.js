@@ -10,3 +10,4 @@ let diagonal = Math.sqrt(Math.pow(base, 2) + Math.pow(altura, 2))
 console.log(`\nArea: ${area}`)
 console.log(`Perimetro: ${perimetro}`)
 console.log(`Diagonal: ${diagonal}`)
+
