@@ -12,5 +12,5 @@ let peso = rd.questionInt("Peso: ")
 let pesoEmGramas = peso * 1000
 let pesoAoEngordarDozePorcento = pesoEmGramas * 1.12
 
-console.log("Peso em gramas: " + pesoEmGramas)
+console.log("\nPeso em gramas: " + pesoEmGramas)
 console.log("Peso em gramas: " + pesoAoEngordarDozePorcento)
