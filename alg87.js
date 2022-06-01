@@ -5,11 +5,11 @@
 
 const rd = require('readline-sync')
 
-let numero = rd.questionInt("Entre com um numero")
+let numero = rd.questionInt("Entre com um numero: ")
 
 console.log()
 
-if(numero % 2 === 0 && numero % 5 === 0 && numero % 10 === 0) {
+if(numero % 2 === 0 || numero % 5 === 0 || numero % 10 === 0) {
     if(numero % 2 === 0) {
         console.log("Divisivel por 2.")
     }
