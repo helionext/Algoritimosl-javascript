@@ -16,3 +16,4 @@ if(milhar % 4 === 0) {
 } else {
     console.log("Número na casa dos milhares não é mútiplo de 4")
 }
+
