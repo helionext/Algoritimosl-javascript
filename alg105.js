@@ -43,6 +43,6 @@ if(pontos_2 < pontos_3) {
 
 console.log();
 
-console.log(`Primeiro colocado: ${nome_1} -> ${pontos_1}`);
-console.log(`Segundo colocado: ${nome_2} -> ${pontos_2}`);
-console.log(`Terceiro colocado: ${nome_3} -> ${pontos_3}`);
+console.log(`Primeiro colocado: ${nome_1} -> ${pontos_1.toFixed(2)}`);
+console.log(`Segundo colocado: ${nome_2} -> ${pontos_2.toFixed(2)}`);
+console.log(`Terceiro colocado: ${nome_3} -> ${pontos_3.toFixed(2)}`);
