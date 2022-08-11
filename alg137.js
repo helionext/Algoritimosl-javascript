@@ -7,7 +7,7 @@ const rd = require('readline-sync');
 
 let num = rd.questionInt("Com quantos numeros deseja entrar: ");
 
-let maior = Number.NEGATIVE_INFINITY;
+let maior = 0;
 
 for (let i = 0; i < num; i++) {
     let valor = rd.questionInt("Entre com um valor: ");
