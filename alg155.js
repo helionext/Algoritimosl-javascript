@@ -19,7 +19,7 @@ do{
     pessoas.push({nome: nome, salario: salario, impostoRenda: impostoRenda});
 
     console.log();
-    resp = rd.question("Deseja cadastrar [S/N]: ").toLowerCase();
+    resp = rd.question('Deseja cadastrar [S/N]: ').toLowerCase();
     console.log();
 } while(resp === 's');
 

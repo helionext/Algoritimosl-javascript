@@ -11,5 +11,8 @@
   "dependencies": {
     "nodemon": "^2.0.15",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0"
   }
 }
